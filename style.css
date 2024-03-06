@@ -10,7 +10,7 @@
 
 /* Navbar Start */
 .navbar{
-    background-color: #F5FCFF;
+    background-color: #b07070;
     padding: 0px 10% 0px;
     transition: all .50s ease;
 }
@@ -34,7 +34,7 @@ section{
 .home{
     padding: 90px 11% 90px;
     height: 100vh;
-    background-color: #fff;
+    background-color: #8f5353;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -65,13 +65,13 @@ section{
     padding: 10px 20px;
     margin-top: 15px;
     border-radius: 7px;
-    border: 1px solid blue;
+    border: 1px solid rgb(0, 0, 0);
     font-size: 14px;
     text-transform: uppercase;
     font-weight: 600;
     letter-spacing: 2px;
     background: transparent;
-    color: blue;
+    color: rgb(0, 0, 0);
     overflow: hidden;
     box-shadow: 0 0 0 0 transparent;
     -webkit-transition: all 0.2s ease-in;
@@ -81,8 +81,8 @@ section{
 }
 .home button:hover{
     color: #fff;
-    background-color: blue;
-    box-shadow: 0 0 30px 5px blue;
+    background-color: rgb(0, 0, 0);
+    box-shadow: 0 0 30px 5px rgb(109, 109, 111);
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
@@ -342,15 +342,15 @@ button:active{
 .social i{
     padding: 10px;
     background: transparent;
-    color: blue;
-    border: 2px solid blue;
+    color: rgb(90, 25, 25);
+    border: 2px solid rgb(0, 0, 0);
     margin-top: 10px;
     border-radius: 5px;
     transition: 0.5s;
     cursor: pointer;
 }
 .social i:hover{
-    background-color: blue;
+    background-color: rgb(0, 0, 16);
     color: white;
 }
 .contact .col-md-5{
@@ -366,7 +366,7 @@ button:active{
     resize: none;
 }
 .contact button{
-    background-color: blue;
+    background-color: rgb(146, 0, 0);
     width: 150px;
     color: white;
     padding: 6px;
@@ -386,7 +386,7 @@ button:active{
 #footer{
     margin-top: 50px;
     padding: 50px 11% 50px;
-    background-color: #F5FCFF;
+    background-color: #656b6d;
     transition: all .50s ease;
 }
 #footer h3{
@@ -398,7 +398,7 @@ button:active{
     transition: 0.5s;
 }
 #footer ul li a:hover{
-    color: blue;
+    color: rgba(90, 8, 8, 0.012);
 }
 #footer ul li{
     list-style-type: none;
@@ -406,6 +406,5 @@ button:active{
 #footer h5{
     padding: 0px 3% 0px;
     font-size: 15px;
-    background-color: antiquewhite;
 }
 /* Footer End */
